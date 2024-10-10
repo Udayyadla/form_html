@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <form action="
+        ">
+        <label for="Feedback">Feedback Type</label>
+        <br>
+    <select name="Feedback" id="Feedback">
+        <option value="Excelleant">Excelleant</option>
+        <option value="Good">Good</option>
+        <option value="Average">Average</option>
+        <option value="Worst">Worst</option>
+    </select>
+
+<br>
+<label for="Message">Message</label>
+<br>
+<textarea name="Message" id="Message"></textarea>
+<br>
+<label for="Rating">Website Rating</label>
+<br>
+   <input type="radio" value="1" id="1" name="Rating"> <label for="1" >1</label>
+   <input type="radio" value="2" id="2"  name="Rating"> <label for="2" >2</label>
+  <input type="radio" value="3" id="3" name="Rating">  <label for="3" >3</label>
+    <br>
+    <label for="Age">Age (10-100)</label>
+    <br>
+    <input type="number" name="Age" id="Age" max="100" min="10">
+    <br>
+    <label for="Email">Email<span style="color:rgb(210, 6, 6)">*</span></label>
+    <input type="email" name="Email" id="Email" required>
+    <br>
+    <label for="Password">Password (Min. 8 characters)</label>
+    <input type="password" id="Password" minlength="8">
+    <br>
+        <label for="Link">Website Link (OPTIONAL)</label>
+        <input type="url" name="Link" id="Link">
+        <br>
+        <input type="checkbox" id="Agree">
+        <label for="Agree">Agree For Terms and Conditions</label>
+       
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+   
+    
+
+   
+    </body>
+  
+</html>
